@@ -75,11 +75,11 @@ public class Main {
                     sc.nextLine();
                     break;
                 } else {
-                    System.out.println("A bateria deve ser maior que zero. Tente novamente:");
+                    System.out.println("A bateria do robô deve ser maior que zero. Tente novamente:");
                     sc.nextLine();
                 }
             } else {
-                System.out.println("Entrada inválida! Digite um número inteiro:");
+                System.out.println("Comando inválido! Digite um número inteiro:");
                 sc.nextLine();
             }
         }
@@ -118,11 +118,11 @@ public class Main {
                         sc.nextLine();
                         break;
                     } else {
-                        System.out.println("A distância deve ser um número positivo. Tente novamente:");
+                        System.out.println("Comando inválido! Digite um número positivo:");
                         sc.nextLine();
                     }
                 } else {
-                    System.out.println("Entrada inválida! Digite um número inteiro:");
+                    System.out.println("Comando inválido! Digite um número inteiro:");
                     sc.nextLine();
                 }
             }
