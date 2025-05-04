@@ -163,6 +163,5 @@ public class Main {
         System.out.println("\nPosição final do robô: (" + x + "," + y + ")");
         System.out.println("Bateria usada no trajeto: " + df.format(bateria) + "%.\n");
         System.out.println("\nPrograma encerrado.");
-        sc.close();
     }
 }
